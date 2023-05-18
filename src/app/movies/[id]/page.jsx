@@ -24,7 +24,7 @@ const Page = async ({params}) => {
         </Link>
         <div className="sm:w-[800px] bg-gray-500 p-3 rounded-lg h-fit">
             <span className="text-4xl text-black-600 font-bold">{movie.title}</span>
-            <div className="w-fit flex gap-3 mt-3">
+            <div className="w-fit flex flex-wrap gap-3 mt-3">
                 {movie.genres.map(genre => {
                     return (
                         <div title="genre" className={`text-xl font-semibold text-sky-100 p-3 rounded-lg cursor-pointer
