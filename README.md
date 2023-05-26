@@ -1,2 +1,2 @@
 # movie_app
-Created with Next.js
+Project demo: https://movie-cnit4telf-cevdetuslu25-gmailcom.vercel.app/
